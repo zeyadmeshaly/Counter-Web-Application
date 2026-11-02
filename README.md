@@ -24,20 +24,4 @@ No installation needed. Download the files and open `counter.html` in any web br
 2. A variable `count` starts at 0.
 3. Each button has an `onclick` function that changes `count` and then writes it to the page with `counter.textContent = count`.
 
-## What I learned
-- Selecting elements with `getElementById`
-- Handling button clicks with `onclick`
-- Updating the page by changing `textContent`
-- Linking a CSS file and a JavaScript file to an HTML page
-- Styling elements by `id` (`#counter`, `#btn12`) and by `class` (`.buttons`)
 
-## Known limitations (things I would improve next)
-- The counter is stored in a JavaScript variable, so it resets to 0 when the page is reloaded.
-- The counter has no minimum or maximum, so it can go negative.
-- The number is a `<label>`, which is meant for form fields. A `<span>` or `<p>` would be more appropriate.
-- The page has no mobile layout (no viewport meta tag).
-
-## Possible improvements
-- Save the count with `localStorage` so it survives a reload
-- Add a minimum or maximum value
-- Make the layout responsive
