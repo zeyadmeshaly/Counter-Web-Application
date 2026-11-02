@@ -1,0 +1,26 @@
+#counter{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10em;
+    font-weight: bold;
+    text-align: center;
+    background-color: aqua;
+}
+
+#btn12{
+    font-size: 30px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px;
+    font-size: 1.5em;
+    background-color: blue;
+}
+
+body{
+    background-color: purple;
+}
